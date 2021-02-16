@@ -1,0 +1,159 @@
+
+
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+.navbar__container {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__container__heading {
+  width:50% ;
+  font-family: cursive;
+}
+.navbar__item {
+  margin: 1em 2.5em;
+  text-decoration: none;
+  padding: 2em 1em;
+  color:black;
+}
+
+.blog__content {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+.blog__content__posts {
+  padding: 0 2em;
+  grid-column: auto;
+}
+.blog__content__aside {
+  padding: 0 2em;
+  grid-auto-flow: auto;
+}
+
+#rposts { 
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 50px;
+  padding: 0 5% 10% 5%;
+}
+
+#response img {
+  float: left;
+  display: block;
+  overflow: hidden;
+  height: 50px;
+  width: 50px;
+  background-color: lightgray;
+}
+
+aside img {
+  height: 70px;
+  width: 100px;     
+  padding: 0 5% 0 5%; 
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  padding: 0 5em;
+  background-color: gray;
+} 
+
+.padding--medium {
+  padding: 5em;
+}
+
+
+
+
+
+
+
+/* for future investigation
+
+header {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+/*
+
+header nav ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(178, 115, 194, 0.61);
+  width: 400px;
+  position: sticky;
+}
+
+nav li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows:100px minmax(100px, auto-fit) 400px;
+  grid-auto-flow: row;
+  grid-gap: 4%;               /*first column sets row gap
+  justify-content: center;
+}
+*/
+/* header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+header nav ul li {
+  padding: 14px 16px;
+  border: rigtht;
+} */
+
+/*
+#response { 
+  display: block;
+  margin: auto;
+  width: 70px;     
+}
+*/
